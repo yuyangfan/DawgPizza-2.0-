@@ -16,8 +16,15 @@ body {
 	font-family: 'Walter Turncoat', sans-serif;
 	font-size: 18px;
 	padding: 10px;
+	height: auto;
+	height: 100%;
+	margin: 0 auto -60px;
 }
 
+p {
+        margin-bottom: 10px;
+        margin: 20px;
+}
 
 .content-box1 {
 	width: 90%;
@@ -25,12 +32,16 @@ body {
 	margin: 30px;
 	margin-bottom: 0px;
 	box-shadow: 5px 5px 60px #A6559F;
+	max-width: 1019px;
+	height: auto;
+	height: 100%;
 }
 
 .logo {
 	float: left;
 	margin-right: 10px;
 	width: 600px;
+
 }
 
 .title {
@@ -64,6 +75,11 @@ nav a {
 }
 
 
+.float {
+	float: left;
+	margin-right: 10px;
+
+}
 
 
 .pic {
@@ -75,9 +91,71 @@ nav a {
         margin-bottom: 1em;
 }
 
-/*@media screen and (max-width: 767px) {
-        .carousel {
+.pic2 {
+	float: left;
+    margin-right: 10px;
+    width: 230px;
+
+}
+
+@media screen and (max-width: 767px) {
+        .video {
                 display: none;
         }
 }
-*/
+
+.fixed {
+	color: #FFF;
+    font-family: 'Walter Turncoat', sans-serif;
+    font-size: 20px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+
+}
+
+.footer {
+	height: 60px;
+    border-color: #A6559F;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    margin-bottom: 5px;
+}
+
+.mail {
+
+        text-decoration: none;
+}
+
+
+.mail:hover {
+        text-decoration: underline;
+}
+
+.name {
+        font-weight: bold;
+}
+
+.border {
+        
+        border-bottom: 2px solid;
+        font-size: 40px;
+        
+        width: 300px;
+        
+
+}
+
+.border2 {
+
+		margin-top: 40px;
+        border-bottom: 2px solid;
+        font-size: 25px;
+        width: 100px;
+}
+
+.highlight {
+        clear: both;
+        font-size: 120%;
+        font-weight: bold;
+}
