@@ -19,6 +19,7 @@ body {
 	height: auto;
 	height: 100%;
 	margin: 0 auto -60px;
+
 }
 
 p {
@@ -29,9 +30,10 @@ p {
 .content-box1 {
 	width: 90%;
 	background-image: url(../img/ricepaper_v3.png);
+
 	margin: 30px;
 	margin-bottom: 0px;
-	box-shadow: 5px 5px 60px #A6559F;
+	box-shadow: 1px 1px 2px #FFF;
 	max-width: 1019px;
 	height: auto;
 	height: 100%;
@@ -56,6 +58,13 @@ p {
 	font-family: 'Averia Gruesa Libre', sans-serif;
 	color: #14020D;
 	font-size: 20px;
+}
+
+.des1 {
+	font-family: 'Averia Gruesa Libre', sans-serif;
+	color: #14020D;
+	font-size: 30px;
+	color: #14020D;	
 }
 
 nav {
@@ -94,14 +103,42 @@ nav a {
 .pic2 {
 	float: left;
     margin-right: 10px;
-    width: 230px;
+    width: 400px;
+    height: 300px;
 
 }
 
+section p {
+        text-indent: 50px;
+}
+
 @media screen and (max-width: 767px) {
-        .video {
+    .video {
                 display: none;
-        }
+    }
+	
+}
+
+@media all and (max-device-width: 720px){
+    p {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-device-width: 640px){
+    p {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+       
 }
 
 .fixed {
@@ -146,10 +183,16 @@ nav a {
 
 }
 
+.col2 {
+        width: 80%;
+        margin: 20px;
+} 
+
+
 .border2 {
 
 		margin-top: 40px;
-        border-bottom: 2px solid;
+        
         font-size: 25px;
         width: 100px;
 }
@@ -158,4 +201,21 @@ nav a {
         clear: both;
         font-size: 120%;
         font-weight: bold;
+}
+
+.head {
+        clear: both;
+        float: left;
+        margin-right: 20px;
+        width: 100px; 
+}
+
+
+.grey-line {
+        border-width: 2px;
+        border-top-style: solid;
+        margin-top: 20px;
+        margin-bottom: -10px;
+
+        border-color: #DEDEDE;
 }
