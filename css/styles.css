@@ -76,6 +76,7 @@ p {
     color: #BD5D85;
     font-weight: bold;
 
+    margin: 10px;
 }
 
 .header {
@@ -272,4 +273,9 @@ section p {
 
 .size {
     font-size: 18px;
+}
+
+.space {
+    margin-bottom: 30px;
+    padding: 10px;
 }
